@@ -3,3 +3,48 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.content {
+  background-color: #eff3f4;
+  height: auto;
+  width: 940px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.section {
+  background-color: #3274ae;
+  height: auto;
+  width: 270px;
+  padding: 20px;
+  margin-left: 20px;
+  float: left;
+}
+
+.section:first-child {
+  margin-left: 0px;  
+}
+
+.article {
+  background-color: #eaf4ff;
+  width: 230px;
+  height: auto;
+  padding: 20px;
+  border: solid 10px #022336;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
