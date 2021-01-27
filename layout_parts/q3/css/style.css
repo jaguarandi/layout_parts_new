@@ -2,4 +2,43 @@
 
 /* 回答はここに書いてね */
 
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  border: solid #dedede 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+td {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  border: solid #dedede 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+td:first-child {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
