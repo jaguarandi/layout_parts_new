@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box--is-float {
+  width: 225px;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.box--is-float:first-child {
+  margin-left: 0px;
+}
+
+.box--is-table {
+  display: table;
+}
+
+.box--is-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.box--is-table-cell:first-child {
+  padding-left: 0px;
+}
+
+.text--is-table {
+  width: 225px;
+  box-sizing: border-box;
+  
+}
+
+.inner--is-inlineblock {
+  font-size: 0px;
+}
+
+.box--is-inlineblock {
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.box--is-inlineblock:first-child {
+  margin-left: 0px;
+}
+
+.inner--is-flex {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.box--is-flex {
+  width: 225px;
+  box-sizing: border-box;
+  align-self: flex-end;
+}
+
+.is-full {
+  font-size: 0px;
+}
+
+.box--is-stable {
+  display: inline-block;
+  font-size: 0px;
+  vertical-align: top;
+}
+
+.text--is-stable {
+  box-sizing: border-box;
+  width: 300px;
+  font-size: 16px;
+}
+
+.box--is-flexible {
+  display: inline-block;
+  font-size: 0px;
+  width: 100%;
+  margin-left: -300px;
+}
+
+.text--is-flexible {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 350px;
+}
 /* 回答はここに書いてね */
