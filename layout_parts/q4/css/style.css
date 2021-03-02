@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-* {
-  box-sizing: border-box;
-}
 
 .container {
   background-color: #eff3f4;
@@ -11,10 +8,11 @@
   display: table;
   text-align: center;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .container:first-child {
-  padding-bottom: 0px;
+  padding-bottom: 0px
 }
 
 .main, .leftside, .rightside {

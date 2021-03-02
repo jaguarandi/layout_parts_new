@@ -2,11 +2,6 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
-* {
-  box-sizing: border-box;
-}
-
 .clearfix:after {
   display: block;
   content: "";
@@ -15,16 +10,15 @@
 
 .content {
   background-color: #eff3f4;
-  height: auto;
-  width: 940px;
+  width: 900px;
   padding: 20px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .section {
   background-color: #3274ae;
-  height: auto;
-  width: 270px;
+  width: 230px;
   padding: 20px;
   margin-left: 20px;
   float: left;
@@ -34,17 +28,13 @@
   margin-left: 0px;  
 }
 
-.article {
-  background-color: #eaf4ff;
-  width: 230px;
-  height: auto;
-  padding: 20px;
-  border: solid 10px #022336;
-}
-
 .text {
   font-size: 16px;
   line-height: 16px;
+  padding: 20px;
+  background-color: #eaf4ff;
+  border: solid 10px #022336;
 }
 
+/* 回答はここに書いてね */
 

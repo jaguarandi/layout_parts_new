@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-* {
-  box-sizing: border-box;
-}
 
 .clearfix:after {
   display: block;
@@ -13,30 +10,31 @@
 
 .content {
   background-color: #eff3f4;
-  height: auto;
   padding: 20px;
   width: 940px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.section {
-  height: auto;
+.img {
+  margin-bottom: 10px;
 }
 
-.img1 {
-  padding-bottom: 10px;
-  padding-right: 20px;
+.is-left {
+  margin-right: 20px;
   float: left;
+}
+
+.is-right {
+  margin-left: 20px;
+  float: right;
 }
 
 .text {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 
-.img2 {
-  padding-bottom: 10px;
-  padding-left: 20px;
-  float: right;
-}
+
 /* 回答はここに書いてね */
