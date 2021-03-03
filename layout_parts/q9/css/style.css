@@ -1,37 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.bubble__box {
+.bubble__text {
   width: 500px;
   border: solid 5px #222;
   padding: 20px;
   border-radius: 30px;
   margin: 0 auto;
+  font-size: 16px;
+  line-height: 16px;
   position: relative;
 }
 
-.bubble__box:before {
-  content: "";
+.bubble__text:before, .bubble__text:after {
   position: absolute;
-  left: 6%;
-  bottom: -36px;
-  border: solid 18px transparent;
-  border-top: solid 18px #fff;
+  border: solid 20px transparent;
+}
+
+.bubble__text:before {
+  content: "";
+  left: 30px;
+  bottom: -38px;
+  border-top: solid 20px #fff;
   z-index: 2;
 }
 
-.bubble__box:after {
+.bubble__text:after {
   content: "";
   position: absolute;
-  left: 5.5%;
+  left: 30px;
   bottom: -45px;
-  border: solid 20px transparent;
   border-top: solid 20px #222; 
   z-index: 1;
 }
 
-.bubble__text {
-  font-size: 16px;
-  line-height: 16px;
-}
 /* 回答はここに書いてね */

@@ -36,7 +36,6 @@
 .text--is-table {
   width: 225px;
   box-sizing: border-box;
-  
 }
 
 .inner--is-inlineblock {
@@ -74,7 +73,6 @@
 
 .box--is-stable {
   display: inline-block;
-  font-size: 0px;
   vertical-align: top;
 }
 
@@ -86,7 +84,6 @@
 
 .box--is-flexible {
   display: inline-block;
-  font-size: 0px;
   width: 100%;
   margin-left: -300px;
 }

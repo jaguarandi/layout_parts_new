@@ -1,18 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.container {
+.contents {
   background-color: #eff3f4;
+  padding: 20px;
+}
+
+.content {
   width: 100%;
   display: table;
   text-align: center;
-  padding: 20px;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
-.container:first-child {
-  padding-bottom: 0px
+.content:first-child {
+  margin-top: 0px;
 }
 
 .main, .leftside, .rightside {

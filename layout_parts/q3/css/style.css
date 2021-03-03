@@ -13,25 +13,22 @@
   font-size: 18px;
   line-height: 26px;
   border: solid #dedede 1px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
-.table td {
+.table tbody td {
   text-align: center;
   font-size: 16px;
   line-height: 22px;
   border: solid #dedede 1px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  padding: 10px 0;
 }
 
-.table tr:last-child {
+.table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.table tr:nth-child(odd) {
+.table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */

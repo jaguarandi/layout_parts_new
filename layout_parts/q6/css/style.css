@@ -13,8 +13,7 @@
 .box__content--horizonal {
   background-color: #e6f2ff;
   width: 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -54,10 +53,11 @@
 
 .content--is-stable {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -55px;
-  margin-top: -15px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .is-flexible {
