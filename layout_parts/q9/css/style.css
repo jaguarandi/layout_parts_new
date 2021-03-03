@@ -13,25 +13,28 @@
 }
 
 .bubble__text:before, .bubble__text:after {
-  position: absolute;
+  position: absolute;/*position, contentをまとめる*/
+  content: "";
   border: solid 20px transparent;
 }
 
 .bubble__text:before {
-  content: "";
-  left: 30px;
-  bottom: -38px;
-  border-top: solid 20px #fff;
-  z-index: 2;
-}
-
-.bubble__text:after {
-  content: "";
-  position: absolute;
+  /*content: "";
+  position: absolute;*/
   left: 30px;
   bottom: -45px;
   border-top: solid 20px #222; 
-  z-index: 1;
+  /*z-index: 1;*/
 }
+
+.bubble__text:after {
+  /*content: "";
+  position: absolute;*/
+  left: 30px;
+  bottom: -38px;
+  border-top: solid 20px #fff;
+  /*z-index: 2;*/
+}
+
 
 /* 回答はここに書いてね */

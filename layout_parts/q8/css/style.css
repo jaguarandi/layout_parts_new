@@ -20,7 +20,7 @@
 
 .transition__box {
   position: absolute;
-  /*left: 0;*/
+  left: 0;
   bottom: -100%;
   width: 100%;
   height: 100%;
@@ -50,11 +50,12 @@
   border: solid 10px #ecf1f2;
   border-top: solid 10px #00bcd4;
   border-radius: 100%;
-  animation-name: rotation;
+  animation: rotation 1.1s linear infinite normal; /*animationをショートハンド*/
+  /*animation-name: rotation;
   animation-duration: 1.1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: normal;*/
 }
 
 @keyframes rotation {

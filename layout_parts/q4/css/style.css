@@ -18,35 +18,34 @@
   margin-top: 0px;
 }
 
-.main, .leftside, .rightside {
+.content__cell {
   display: table-cell;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
-.top__main {
-  background-color: #e0abd9;
-}
-
-.top__leftside {
+.is-pink {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.top__rightside {
+.is-purple {
+  background-color: #e0abd9;
+}
+
+.is-blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.bottom__leftside {
+.is-yellow {
   background-color: #e5d32e;
 }
 
-.bottom__rightside {
+.is-red {
   background-color: #ec8f9a;
 }
 
-.bottom__main {
+.is-green {
   background-color: #8fdcad;
   width: 500px;
 }

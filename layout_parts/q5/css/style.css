@@ -13,9 +13,11 @@
 .item {
   height: 100px;
   width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /*display: flex;
+  justify-content: center; 数字の中央寄せ修正
+  align-items: center; 数字の中央寄せ修正*/
+  text-align: center; /*数字の中央寄せ追加*/
+  line-height: 100px; /*数字の中央寄せ追加*/
   font-size: 30px;
   font-weight: bold;
   position: absolute;
